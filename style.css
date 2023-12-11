@@ -1,0 +1,195 @@
+/*OSAMA ALMALKI 2042178*/ 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  img {
+    max-width: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    width: 100%;
+    max-height: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: 5px solid #0056b3;
+    background-image: linear-gradient(to bottom, #463131, #0056b3);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Section styles */
+  section,
+  .project {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2,
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  section p,
+  section ul li,
+  .project p,
+  .project ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Projects styles */
+  .project {
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+  
+  .project h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .project img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+  }
+
+  .project img:hover {
+    transform: scale(1.1) translate(-5px, -5px);
+    filter: brightness(1.2);
+  }
+
+  
+  .project a {
+    display: block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project a:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+
+
+  
+  #contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+  }
+  
+  #contact a img {
+    filter: brightness(0.8);
+    transition: filter 0.3s ease;
+  }
+  
+  #contact a:hover img {
+    filter: brightness(1);
+  }
+  
+  footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #777;
+    border-top: 1px solid #ddd;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+    section,
+    .project {
+      padding: 10px;
+    }
+    .project h3 {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    header h1 {
+      font-size: 32px;
+    }
+  }
+  
+  @media (min-width: 993px) {
+    header h1 {
+      font-size: 36px;
+    }
+    section,
+    .project {
+      padding: 20px;
+    }
+  }
+  
+  
